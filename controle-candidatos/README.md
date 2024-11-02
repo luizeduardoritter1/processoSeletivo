@@ -1,18 +1,26 @@
-## Getting Started
+**Processo Seletivo**
+Este projeto simula um processo seletivo simples, onde candidatos são avaliados com base no salário pretendido. O objetivo é selecionar cinco candidatos que aceitem um salário base de R$2000,00.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**Estrutura do Projeto**
+O projeto contém uma única classe ProcessoSeletivo com os seguintes métodos:
 
-## Folder Structure
+- main(String[] args): Método principal que inicia o processo de seleção.
+- selecaoCandidatos(): Método que realiza a seleção dos candidatos.
+- valorPretendido(): Método que gera um valor aleatório de salário pretendido para cada candidato.
+- analisarCandidato(double salarioPretendido): Método que analisa se o salário pretendido pelo candidato é aceitável.
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+**Contribuição**
+Sinta-se à vontade para contribuir com melhorias ou novas funcionalidades. Para isso, siga os passos abaixo:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Faça um fork do projeto.
+- Crie uma nova branch:
+git checkout -b minha-nova-feature
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Faça suas alterações e commit:
+git commit -m "Adiciona nova feature"
 
-## Dependency Management
+- Faça o push para a branch:
+git push origin minha-nova-feature
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Abra um Pull Request.
